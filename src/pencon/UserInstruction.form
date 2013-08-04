@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Instruction"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="910" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" min="-2" pref="498" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextAreaUserManual">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d8" green="e9" red="ec" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa; Compiler &#x9;: Select a compiler to run.&#xa;&#xa; Add File &#x9;: Add a new file according to selected compiler.&#xa;&#xa; Manual Judge &#x9;:&#xa;&#x9;Compile&#x9;- Compile the added file. If you edit file on PenCon editor, then save it first before compile.&#xa;&#x9;Run&#x9;- Run compiled file. Before running, you have to select an input file. If it does not need any input then select a empty/any ohter file.&#xa;&#x9;Check &#x9;- Compare the output file with other file (generally judge&apos;s output file). First, select a file for comparison.&#xa;&#xa; Auto Judge &#x9;:&#xa;&#x9;first Arrange_Contest. &#xa;&#x9;Select Problem&#x9;- Select a problem before verdict.&#xa;&#x9;Verdict&#x9;- Show the verdict of given file.&#xa;&#xa; Output&#x9;: Show the output of the file that has been run &amp; judge&apos;s output file including error if it has.&#xa;&#xa; Editable&#x9;: Active/inactive PenCon editor to edit file.&#xa;&#xa; Result&#x9;: Show the all submission result of a team including penalty time.&#xa;&#xa; Switch&#x9;: Switching the user.&#xa;&#xa;&#xa; Arrange_Contest :&#xa;&#x9;Add New Problem&#x9;- Add a new problem.&#xa;&#x9;Update Problem&#x9;- Update a problem.&#xa;&#x9;Remove Problem&#x9;- Remove a problem&#xa;&#x9;Active Contest&#x9;&#x9;- Activate contest on a pen drive.&#xa;&#x9;Ranklist&#x9;&#x9;- Show the ranklist of a contest. (N.B.- Judge must have to seen result of all team before seeing ranklist.)&#xa;"/>
+            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
